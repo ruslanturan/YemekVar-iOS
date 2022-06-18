@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.9.1)
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlacesAPI (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - ObjectMapper (3.5.3)
+  - SIFloatingCollection (3.0.1)
+
+DEPENDENCIES:
+  - GoogleMaps (= 4.1.0)
+  - GooglePlacesAPI
+  - SIFloatingCollection
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlacesAPI
+    - ObjectMapper
+    - SIFloatingCollection
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlacesAPI: 6184a463b58443f1bde3fab6ce725c1c8e540419
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SIFloatingCollection: 096160b220e3a1b1cbcf349108ee24d3aa6b86de
+
+PODFILE CHECKSUM: 6478ef4e20a6b05249008143eb393669bdfa3528
+
+COCOAPODS: 1.11.3
