@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/GooglePlacesAPI/GooglePlacesAPI.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/SIFloatingCollection/SIFloatingCollection.framework

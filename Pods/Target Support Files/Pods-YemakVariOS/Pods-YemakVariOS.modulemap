@@ -1,0 +1,6 @@
+framework module Pods_YemakVariOS {
+  umbrella header "Pods-YemakVariOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
