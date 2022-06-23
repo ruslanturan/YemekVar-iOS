@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266A3BA53C44CCC4D659F842 /* Pods_YemakVariOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F32E8F37AD0FDF11E2A69F7 /* Pods_YemakVariOS.framework */; };
+		7D02E73C281474330087FF9C /* BottomCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02E73B281474330087FF9C /* BottomCurve.swift */; };
+		7D033ECC282142DB002F9D27 /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D033ECB282142DB002F9D27 /* PaymentsView.swift */; };
+		7D033ECE28214F24002F9D27 /* AddPromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D033ECD28214F24002F9D27 /* AddPromotionView.swift */; };
+		7D033ED0282514CA002F9D27 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D033ECF282514CA002F9D27 /* LoginView.swift */; };
+		7D0534242854C1AC00DCDE33 /* PlacePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0534232854C1AC00DCDE33 /* PlacePicker.swift */; };
+		7D0DF53428192998001AB542 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0DF53328192998001AB542 /* BasketView.swift */; };
+		7D0E0B3328267728002E535C /* DeliverySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E0B3228267728002E535C /* DeliverySearchView.swift */; };
+		7D0F67A7283F721A00D03D85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0F67A6283F721A00D03D85 /* Launch Screen.storyboard */; };
+		7D0F67AC283F8A3F00D03D85 /* PrefixPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F67AB283F8A3F00D03D85 /* PrefixPicker.swift */; };
+		7D0F67AE2840C0A500D03D85 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F67AD2840C0A400D03D85 /* CustomAlertView.swift */; };
+		7D24CF0328168FF900315CA8 /* DeliveryRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24CF0228168FF900315CA8 /* DeliveryRestaurantView.swift */; };
+		7D470DB3280ED2B10040F02F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D470DB2280ED2B10040F02F /* LocationManager.swift */; };
+		7D569B352854DFAD0063CE8E /* EditAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D569B342854DFAD0063CE8E /* EditAddressView.swift */; };
+		7D67020928339DE1006614A5 /* NoConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67020828339DE1006614A5 /* NoConnectionView.swift */; };
+		7D67020B2833A462006614A5 /* OrderConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67020A2833A462006614A5 /* OrderConfirmationView.swift */; };
+		7D7B9F10280EAD860008A6A0 /* YemakVariOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9F0F280EAD860008A6A0 /* YemakVariOSApp.swift */; };
+		7D7B9F12280EAD860008A6A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9F11280EAD860008A6A0 /* ContentView.swift */; };
+		7D7B9F14280EAD8B0008A6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B9F13280EAD8B0008A6A0 /* Assets.xcassets */; };
+		7D7B9F17280EAD8B0008A6A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B9F16280EAD8B0008A6A0 /* Preview Assets.xcassets */; };
+		7D7B9F21280EAD8B0008A6A0 /* YemakVariOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9F20280EAD8B0008A6A0 /* YemakVariOSTests.swift */; };
+		7D7B9F2B280EAD8B0008A6A0 /* YemakVariOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9F2A280EAD8B0008A6A0 /* YemakVariOSUITests.swift */; };
+		7D7B9F2D280EAD8B0008A6A0 /* YemakVariOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9F2C280EAD8B0008A6A0 /* YemakVariOSUITestsLaunchTests.swift */; };
+		7D7D0A532828F04B00CCB7C6 /* ReservationHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0A522828F04B00CCB7C6 /* ReservationHomeView.swift */; };
+		7D7D0A5728295E0D00CCB7C6 /* DatetimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0A5628295E0D00CCB7C6 /* DatetimePicker.swift */; };
+		7D96956128259329005C54A7 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96956028259329005C54A7 /* PreferencesView.swift */; };
+		7DA2154228199B0E005331CB /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2154128199B0E005331CB /* SideMenuView.swift */; };
+		7DA2154428199B3B005331CB /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2154328199B3B005331CB /* SideMenuHeaderView.swift */; };
+		7DA2154628199B4D005331CB /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2154528199B4D005331CB /* SideMenuOptionView.swift */; };
+		7DA7BCCC2820094200822270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7BCCB2820094200822270 /* AppDelegate.swift */; };
+		7DA7BCCE2820277D00822270 /* OrderTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7BCCD2820277D00822270 /* OrderTrackView.swift */; };
+		7DA7BCD0282028B600822270 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7BCCF282028B600822270 /* GoogleMapsView.swift */; };
+		7DAC81FA281AF1A300A0B03B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC81F9281AF1A300A0B03B /* ProfileView.swift */; };
+		7DAC81FC281B1F4E00A0B03B /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC81FB281B1F4E00A0B03B /* OrdersView.swift */; };
+		7DB2FEE428182A4F00E076EA /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FEE328182A4F00E076EA /* MealView.swift */; };
+		7DB2FEE828183E3000E076EA /* DropdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FEE728183E3000E076EA /* DropdownPicker.swift */; };
+		7DBE5DAD28149B95001D57FF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBE5DAC28149B95001D57FF /* SwiftUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7DBF894228420C1D00A81DD9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF894128420C1D00A81DD9 /* LoadingView.swift */; };
+		7DBF894E2847D36700A81DD9 /* CheckboxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF894D2847D36600A81DD9 /* CheckboxListView.swift */; };
+		7DCA3A7828254000000EB205 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA3A7728254000000EB205 /* RegistrationView.swift */; };
+		7DCA3A7A282542B5000EB205 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA3A79282542B5000EB205 /* VerificationView.swift */; };
+		7DDD998F2833C06000496D75 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD998E2833C06000496D75 /* SupportView.swift */; };
+		7DE171EB2833E50D00087AB3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE171EA2833E50D00087AB3 /* SettingsView.swift */; };
+		7DF485FD282EB1F40028C901 /* NewAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF485FC282EB1F30028C901 /* NewAddressView.swift */; };
+		7DF485FF282EB2250028C901 /* AdddressesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF485FE282EB2250028C901 /* AdddressesView.swift */; };
+		7DF48601282EBF720028C901 /* ReservationRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF48600282EBF720028C901 /* ReservationRestaurantView.swift */; };
+		7DF62DAF2811C6DE000E41BB /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7DF62DA82811C28B000E41BB /* Fonts */; };
+		7DF62DB3281447CE000E41BB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF62DB2281447CE000E41BB /* TabBar.swift */; };
+		7DF62DB62814670E000E41BB /* CustomEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF62DB52814670E000E41BB /* CustomEffect.swift */; };
+		7DF9AB4E282FC21F005AF5B0 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9AB4D282FC21F005AF5B0 /* LocationView.swift */; };
+		7DF9AB5028322A63005AF5B0 /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9AB4F28322A63005AF5B0 /* ReservationsView.swift */; };
+		7DF9AB5228323B2E005AF5B0 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9AB5128323B2E005AF5B0 /* ReservationView.swift */; };
+		7DF9AB5428328271005AF5B0 /* ReservationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9AB5328328271005AF5B0 /* ReservationSearchView.swift */; };
+		7DF9AB5628328560005AF5B0 /* AllLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9AB5528328560005AF5B0 /* AllLocationsView.swift */; };
+		7DF9E147282BB31C005775C4 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9E146282BB31C005775C4 /* DateValue.swift */; };
+		7DF9E14B282D3427005775C4 /* ClearBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9E14A282D3427005775C4 /* ClearBackgroundView.swift */; };
+		7DFDEDA6281013EA00C7A428 /* DeliveryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFDEDA5281013EA00C7A428 /* DeliveryHomeView.swift */; };
+		EECBBA09E52FCBE2809A5762 /* Pods_YemakVariOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74B2DF5C773A330D230E32D /* Pods_YemakVariOSTests.framework */; };
+		F222771F481D7763CDF32B3B /* Pods_YemakVariOS_YemakVariOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4839DEA68FA232F59266C6 /* Pods_YemakVariOS_YemakVariOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D7B9F1D280EAD8B0008A6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7B9F04280EAD860008A6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7B9F0B280EAD860008A6A0;
+			remoteInfo = YemakVariOS;
+		};
+		7D7B9F27280EAD8B0008A6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7B9F04280EAD860008A6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D7B9F0B280EAD860008A6A0;
+			remoteInfo = YemakVariOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C32F7FE7FC1B9A863E6931B /* Pods-YemakVariOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOSTests.debug.xcconfig"; path = "Target Support Files/Pods-YemakVariOSTests/Pods-YemakVariOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F32E8F37AD0FDF11E2A69F7 /* Pods_YemakVariOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YemakVariOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E173550986676467EBA9B0 /* Pods-YemakVariOS-YemakVariOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOS-YemakVariOSUITests.release.xcconfig"; path = "Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D02E73B281474330087FF9C /* BottomCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCurve.swift; sourceTree = "<group>"; };
+		7D033ECB282142DB002F9D27 /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		7D033ECD28214F24002F9D27 /* AddPromotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPromotionView.swift; sourceTree = "<group>"; };
+		7D033ECF282514CA002F9D27 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7D0534232854C1AC00DCDE33 /* PlacePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePicker.swift; sourceTree = "<group>"; };
+		7D0DF53328192998001AB542 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		7D0E0B3228267728002E535C /* DeliverySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverySearchView.swift; sourceTree = "<group>"; };
+		7D0F67A6283F721A00D03D85 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7D0F67AB283F8A3F00D03D85 /* PrefixPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixPicker.swift; sourceTree = "<group>"; };
+		7D0F67AD2840C0A400D03D85 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		7D24CF0228168FF900315CA8 /* DeliveryRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryRestaurantView.swift; sourceTree = "<group>"; };
+		7D470DB2280ED2B10040F02F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7D569B342854DFAD0063CE8E /* EditAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAddressView.swift; sourceTree = "<group>"; };
+		7D67020828339DE1006614A5 /* NoConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionView.swift; sourceTree = "<group>"; };
+		7D67020A2833A462006614A5 /* OrderConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationView.swift; sourceTree = "<group>"; };
+		7D7B9F0C280EAD860008A6A0 /* YemakVariOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemakVariOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7B9F0F280EAD860008A6A0 /* YemakVariOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemakVariOSApp.swift; sourceTree = "<group>"; };
+		7D7B9F11280EAD860008A6A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D7B9F13280EAD8B0008A6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D7B9F16280EAD8B0008A6A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D7B9F1C280EAD8B0008A6A0 /* YemakVariOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemakVariOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7B9F20280EAD8B0008A6A0 /* YemakVariOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemakVariOSTests.swift; sourceTree = "<group>"; };
+		7D7B9F26280EAD8B0008A6A0 /* YemakVariOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemakVariOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7B9F2A280EAD8B0008A6A0 /* YemakVariOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemakVariOSUITests.swift; sourceTree = "<group>"; };
+		7D7B9F2C280EAD8B0008A6A0 /* YemakVariOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemakVariOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D7D0A522828F04B00CCB7C6 /* ReservationHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationHomeView.swift; sourceTree = "<group>"; };
+		7D7D0A5628295E0D00CCB7C6 /* DatetimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatetimePicker.swift; sourceTree = "<group>"; };
+		7D96956028259329005C54A7 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		7DA2154128199B0E005331CB /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		7DA2154328199B3B005331CB /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		7DA2154528199B4D005331CB /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		7DA7BCCB2820094200822270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DA7BCCD2820277D00822270 /* OrderTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackView.swift; sourceTree = "<group>"; };
+		7DA7BCCF282028B600822270 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		7DAC81F9281AF1A300A0B03B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7DAC81FB281B1F4E00A0B03B /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		7DB2FEE328182A4F00E076EA /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		7DB2FEE728183E3000E076EA /* DropdownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPicker.swift; sourceTree = "<group>"; };
+		7DBE5DAC28149B95001D57FF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7DBF894128420C1D00A81DD9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7DBF894D2847D36600A81DD9 /* CheckboxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxListView.swift; sourceTree = "<group>"; };
+		7DCA3A7728254000000EB205 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		7DCA3A79282542B5000EB205 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		7DDD998E2833C06000496D75 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		7DE171EA2833E50D00087AB3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7DF485FC282EB1F30028C901 /* NewAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressView.swift; sourceTree = "<group>"; };
+		7DF485FE282EB2250028C901 /* AdddressesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdddressesView.swift; sourceTree = "<group>"; };
+		7DF48600282EBF720028C901 /* ReservationRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationRestaurantView.swift; sourceTree = "<group>"; };
+		7DF62DA82811C28B000E41BB /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		7DF62DAA2811C2C2000E41BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7DF62DB2281447CE000E41BB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7DF62DB52814670E000E41BB /* CustomEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEffect.swift; sourceTree = "<group>"; };
+		7DF9AB4D282FC21F005AF5B0 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		7DF9AB4F28322A63005AF5B0 /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
+		7DF9AB5128323B2E005AF5B0 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		7DF9AB5328328271005AF5B0 /* ReservationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSearchView.swift; sourceTree = "<group>"; };
+		7DF9AB5528328560005AF5B0 /* AllLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLocationsView.swift; sourceTree = "<group>"; };
+		7DF9E146282BB31C005775C4 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		7DF9E14A282D3427005775C4 /* ClearBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBackgroundView.swift; sourceTree = "<group>"; };
+		7DFDEDA5281013EA00C7A428 /* DeliveryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryHomeView.swift; sourceTree = "<group>"; };
+		8C4839DEA68FA232F59266C6 /* Pods_YemakVariOS_YemakVariOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YemakVariOS_YemakVariOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E38B74C7CB853C0CDC787BD /* Pods-YemakVariOS-YemakVariOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOS-YemakVariOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A128A5B8D51EDA9C290E3351 /* Pods-YemakVariOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOSTests.release.xcconfig"; path = "Target Support Files/Pods-YemakVariOSTests/Pods-YemakVariOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A74B2DF5C773A330D230E32D /* Pods_YemakVariOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YemakVariOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9814ED4BEF97E36B2B3618F /* Pods-YemakVariOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOS.release.xcconfig"; path = "Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS.release.xcconfig"; sourceTree = "<group>"; };
+		F5EC6EB7E21DAD1CA46F4308 /* Pods-YemakVariOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YemakVariOS.debug.xcconfig"; path = "Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7B9F09280EAD860008A6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBE5DAD28149B95001D57FF /* SwiftUI.framework in Frameworks */,
+				266A3BA53C44CCC4D659F842 /* Pods_YemakVariOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F19280EAD8B0008A6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECBBA09E52FCBE2809A5762 /* Pods_YemakVariOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F23280EAD8B0008A6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F222771F481D7763CDF32B3B /* Pods_YemakVariOS_YemakVariOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2093F487075919982237D050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5EC6EB7E21DAD1CA46F4308 /* Pods-YemakVariOS.debug.xcconfig */,
+				D9814ED4BEF97E36B2B3618F /* Pods-YemakVariOS.release.xcconfig */,
+				9E38B74C7CB853C0CDC787BD /* Pods-YemakVariOS-YemakVariOSUITests.debug.xcconfig */,
+				71E173550986676467EBA9B0 /* Pods-YemakVariOS-YemakVariOSUITests.release.xcconfig */,
+				2C32F7FE7FC1B9A863E6931B /* Pods-YemakVariOSTests.debug.xcconfig */,
+				A128A5B8D51EDA9C290E3351 /* Pods-YemakVariOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D5BEF792829B433001087B5 /* Datetime Picker */ = {
+			isa = PBXGroup;
+			children = (
+				7D7D0A5628295E0D00CCB7C6 /* DatetimePicker.swift */,
+				7DF9E146282BB31C005775C4 /* DateValue.swift */,
+			);
+			path = "Datetime Picker";
+			sourceTree = "<group>";
+		};
+		7D7B9F03280EAD860008A6A0 = {
+			isa = PBXGroup;
+			children = (
+				7D0F67A6283F721A00D03D85 /* Launch Screen.storyboard */,
+				7D7B9F0E280EAD860008A6A0 /* YemakVariOS */,
+				7D7B9F1F280EAD8B0008A6A0 /* YemakVariOSTests */,
+				7D7B9F29280EAD8B0008A6A0 /* YemakVariOSUITests */,
+				7D7B9F0D280EAD860008A6A0 /* Products */,
+				7DBE5DAB28149B95001D57FF /* Frameworks */,
+				2093F487075919982237D050 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7D7B9F0D280EAD860008A6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B9F0C280EAD860008A6A0 /* YemakVariOS.app */,
+				7D7B9F1C280EAD8B0008A6A0 /* YemakVariOSTests.xctest */,
+				7D7B9F26280EAD8B0008A6A0 /* YemakVariOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7B9F0E280EAD860008A6A0 /* YemakVariOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DBF89462844DAA300A81DD9 /* Classes */,
+				7DBF89432844D1B800A81DD9 /* Extensions */,
+				7D7B9F13280EAD8B0008A6A0 /* Assets.xcassets */,
+				7DF62DAA2811C2C2000E41BB /* Info.plist */,
+				7D7B9F15280EAD8B0008A6A0 /* Preview Content */,
+				7DF62DA82811C28B000E41BB /* Fonts */,
+				7DA7BCCB2820094200822270 /* AppDelegate.swift */,
+				7D7B9F0F280EAD860008A6A0 /* YemakVariOSApp.swift */,
+				7D7B9F11280EAD860008A6A0 /* ContentView.swift */,
+				7D033ECF282514CA002F9D27 /* LoginView.swift */,
+				7DCA3A79282542B5000EB205 /* VerificationView.swift */,
+				7DCA3A7728254000000EB205 /* RegistrationView.swift */,
+				7DFDEDA5281013EA00C7A428 /* DeliveryHomeView.swift */,
+				7D0E0B3228267728002E535C /* DeliverySearchView.swift */,
+				7D24CF0228168FF900315CA8 /* DeliveryRestaurantView.swift */,
+				7DB2FEE328182A4F00E076EA /* MealView.swift */,
+				7D7D0A522828F04B00CCB7C6 /* ReservationHomeView.swift */,
+				7DF48600282EBF720028C901 /* ReservationRestaurantView.swift */,
+				7DF9AB5328328271005AF5B0 /* ReservationSearchView.swift */,
+				7DAC81F9281AF1A300A0B03B /* ProfileView.swift */,
+				7DAC81FB281B1F4E00A0B03B /* OrdersView.swift */,
+				7DA7BCCD2820277D00822270 /* OrderTrackView.swift */,
+				7DF9AB4F28322A63005AF5B0 /* ReservationsView.swift */,
+				7DF9AB5128323B2E005AF5B0 /* ReservationView.swift */,
+				7D033ECB282142DB002F9D27 /* PaymentsView.swift */,
+				7D033ECD28214F24002F9D27 /* AddPromotionView.swift */,
+				7DDD998E2833C06000496D75 /* SupportView.swift */,
+				7DE171EA2833E50D00087AB3 /* SettingsView.swift */,
+				7D0DF53328192998001AB542 /* BasketView.swift */,
+				7D67020A2833A462006614A5 /* OrderConfirmationView.swift */,
+				7DF485FE282EB2250028C901 /* AdddressesView.swift */,
+				7DF485FC282EB1F30028C901 /* NewAddressView.swift */,
+				7D96956028259329005C54A7 /* PreferencesView.swift */,
+				7D67020828339DE1006614A5 /* NoConnectionView.swift */,
+				7D569B342854DFAD0063CE8E /* EditAddressView.swift */,
+			);
+			path = YemakVariOS;
+			sourceTree = "<group>";
+		};
+		7D7B9F15280EAD8B0008A6A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B9F16280EAD8B0008A6A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D7B9F1F280EAD8B0008A6A0 /* YemakVariOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B9F20280EAD8B0008A6A0 /* YemakVariOSTests.swift */,
+			);
+			path = YemakVariOSTests;
+			sourceTree = "<group>";
+		};
+		7D7B9F29280EAD8B0008A6A0 /* YemakVariOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B9F2A280EAD8B0008A6A0 /* YemakVariOSUITests.swift */,
+				7D7B9F2C280EAD8B0008A6A0 /* YemakVariOSUITestsLaunchTests.swift */,
+			);
+			path = YemakVariOSUITests;
+			sourceTree = "<group>";
+		};
+		7DA2154028199AEA005331CB /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7DA2154128199B0E005331CB /* SideMenuView.swift */,
+				7DA2154328199B3B005331CB /* SideMenuHeaderView.swift */,
+				7DA2154528199B4D005331CB /* SideMenuOptionView.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		7DBE5DAB28149B95001D57FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DBE5DAC28149B95001D57FF /* SwiftUI.framework */,
+				3F32E8F37AD0FDF11E2A69F7 /* Pods_YemakVariOS.framework */,
+				8C4839DEA68FA232F59266C6 /* Pods_YemakVariOS_YemakVariOSUITests.framework */,
+				A74B2DF5C773A330D230E32D /* Pods_YemakVariOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DBF89432844D1B800A81DD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DF62DB4281466A3000E41BB /* Tab Bar */,
+				7DA2154028199AEA005331CB /* Side Menu */,
+				7D5BEF792829B433001087B5 /* Datetime Picker */,
+				7DBF894D2847D36600A81DD9 /* CheckboxListView.swift */,
+				7DF9E14A282D3427005775C4 /* ClearBackgroundView.swift */,
+				7D470DB2280ED2B10040F02F /* LocationManager.swift */,
+				7DB2FEE728183E3000E076EA /* DropdownPicker.swift */,
+				7D0F67AB283F8A3F00D03D85 /* PrefixPicker.swift */,
+				7DA7BCCF282028B600822270 /* GoogleMapsView.swift */,
+				7DF9AB4D282FC21F005AF5B0 /* LocationView.swift */,
+				7DF9AB5528328560005AF5B0 /* AllLocationsView.swift */,
+				7D0F67AD2840C0A400D03D85 /* CustomAlertView.swift */,
+				7DBF894128420C1D00A81DD9 /* LoadingView.swift */,
+				7D0534232854C1AC00DCDE33 /* PlacePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7DBF89462844DAA300A81DD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DF62DB4281466A3000E41BB /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				7DF62DB2281447CE000E41BB /* TabBar.swift */,
+				7DF62DB52814670E000E41BB /* CustomEffect.swift */,
+				7D02E73B281474330087FF9C /* BottomCurve.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D7B9F0B280EAD860008A6A0 /* YemakVariOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7B9F30280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOS" */;
+			buildPhases = (
+				FB78F5BE67A3FD0DE583F003 /* [CP] Check Pods Manifest.lock */,
+				7D7B9F08280EAD860008A6A0 /* Sources */,
+				7D7B9F09280EAD860008A6A0 /* Frameworks */,
+				7D7B9F0A280EAD860008A6A0 /* Resources */,
+				FAA0B09C61D7CC1F2263C6CD /* [CP] Copy Pods Resources */,
+				8469DCFEE3CCC8593BCB0B2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemakVariOS;
+			productName = YemakVariOS;
+			productReference = 7D7B9F0C280EAD860008A6A0 /* YemakVariOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D7B9F1B280EAD8B0008A6A0 /* YemakVariOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7B9F33280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOSTests" */;
+			buildPhases = (
+				9E9CA936852C964DD548EA72 /* [CP] Check Pods Manifest.lock */,
+				7D7B9F18280EAD8B0008A6A0 /* Sources */,
+				7D7B9F19280EAD8B0008A6A0 /* Frameworks */,
+				7D7B9F1A280EAD8B0008A6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7B9F1E280EAD8B0008A6A0 /* PBXTargetDependency */,
+			);
+			name = YemakVariOSTests;
+			productName = YemakVariOSTests;
+			productReference = 7D7B9F1C280EAD8B0008A6A0 /* YemakVariOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D7B9F25280EAD8B0008A6A0 /* YemakVariOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7B9F36280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOSUITests" */;
+			buildPhases = (
+				C9B17573AFF6C1DADD835247 /* [CP] Check Pods Manifest.lock */,
+				7D7B9F22280EAD8B0008A6A0 /* Sources */,
+				7D7B9F23280EAD8B0008A6A0 /* Frameworks */,
+				7D7B9F24280EAD8B0008A6A0 /* Resources */,
+				1C7042188B4B59E179386E20 /* [CP] Copy Pods Resources */,
+				9AECA3204641BDB0DF799C77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D7B9F28280EAD8B0008A6A0 /* PBXTargetDependency */,
+			);
+			name = YemakVariOSUITests;
+			productName = YemakVariOSUITests;
+			productReference = 7D7B9F26280EAD8B0008A6A0 /* YemakVariOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D7B9F04280EAD860008A6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7D7B9F0B280EAD860008A6A0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					7D7B9F1B280EAD8B0008A6A0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7D7B9F0B280EAD860008A6A0;
+					};
+					7D7B9F25280EAD8B0008A6A0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7D7B9F0B280EAD860008A6A0;
+					};
+				};
+			};
+			buildConfigurationList = 7D7B9F07280EAD860008A6A0 /* Build configuration list for PBXProject "YemakVariOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D7B9F03280EAD860008A6A0;
+			productRefGroup = 7D7B9F0D280EAD860008A6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7B9F0B280EAD860008A6A0 /* YemakVariOS */,
+				7D7B9F1B280EAD8B0008A6A0 /* YemakVariOSTests */,
+				7D7B9F25280EAD8B0008A6A0 /* YemakVariOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D7B9F0A280EAD860008A6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF62DAF2811C6DE000E41BB /* Fonts in Resources */,
+				7D7B9F17280EAD8B0008A6A0 /* Preview Assets.xcassets in Resources */,
+				7D0F67A7283F721A00D03D85 /* Launch Screen.storyboard in Resources */,
+				7D7B9F14280EAD8B0008A6A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F1A280EAD8B0008A6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F24280EAD8B0008A6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C7042188B4B59E179386E20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8469DCFEE3CCC8593BCB0B2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AECA3204641BDB0DF799C77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS-YemakVariOSUITests/Pods-YemakVariOS-YemakVariOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9CA936852C964DD548EA72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YemakVariOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B17573AFF6C1DADD835247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YemakVariOS-YemakVariOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA0B09C61D7CC1F2263C6CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YemakVariOS/Pods-YemakVariOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB78F5BE67A3FD0DE583F003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YemakVariOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D7B9F08280EAD860008A6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0DF53428192998001AB542 /* BasketView.swift in Sources */,
+				7DA2154428199B3B005331CB /* SideMenuHeaderView.swift in Sources */,
+				7D0E0B3328267728002E535C /* DeliverySearchView.swift in Sources */,
+				7DAC81FC281B1F4E00A0B03B /* OrdersView.swift in Sources */,
+				7DF48601282EBF720028C901 /* ReservationRestaurantView.swift in Sources */,
+				7D96956128259329005C54A7 /* PreferencesView.swift in Sources */,
+				7D7B9F12280EAD860008A6A0 /* ContentView.swift in Sources */,
+				7D7D0A5728295E0D00CCB7C6 /* DatetimePicker.swift in Sources */,
+				7D033ED0282514CA002F9D27 /* LoginView.swift in Sources */,
+				7D0F67AC283F8A3F00D03D85 /* PrefixPicker.swift in Sources */,
+				7DF62DB62814670E000E41BB /* CustomEffect.swift in Sources */,
+				7DF9E147282BB31C005775C4 /* DateValue.swift in Sources */,
+				7DFDEDA6281013EA00C7A428 /* DeliveryHomeView.swift in Sources */,
+				7DE171EB2833E50D00087AB3 /* SettingsView.swift in Sources */,
+				7DDD998F2833C06000496D75 /* SupportView.swift in Sources */,
+				7D0534242854C1AC00DCDE33 /* PlacePicker.swift in Sources */,
+				7DBF894E2847D36700A81DD9 /* CheckboxListView.swift in Sources */,
+				7DB2FEE828183E3000E076EA /* DropdownPicker.swift in Sources */,
+				7D02E73C281474330087FF9C /* BottomCurve.swift in Sources */,
+				7DF485FF282EB2250028C901 /* AdddressesView.swift in Sources */,
+				7DA2154628199B4D005331CB /* SideMenuOptionView.swift in Sources */,
+				7DCA3A7A282542B5000EB205 /* VerificationView.swift in Sources */,
+				7D67020B2833A462006614A5 /* OrderConfirmationView.swift in Sources */,
+				7DAC81FA281AF1A300A0B03B /* ProfileView.swift in Sources */,
+				7DA2154228199B0E005331CB /* SideMenuView.swift in Sources */,
+				7D7B9F10280EAD860008A6A0 /* YemakVariOSApp.swift in Sources */,
+				7DF485FD282EB1F40028C901 /* NewAddressView.swift in Sources */,
+				7DF9AB5028322A63005AF5B0 /* ReservationsView.swift in Sources */,
+				7DA7BCCC2820094200822270 /* AppDelegate.swift in Sources */,
+				7DF9AB5228323B2E005AF5B0 /* ReservationView.swift in Sources */,
+				7D033ECC282142DB002F9D27 /* PaymentsView.swift in Sources */,
+				7DF9AB5428328271005AF5B0 /* ReservationSearchView.swift in Sources */,
+				7D0F67AE2840C0A500D03D85 /* CustomAlertView.swift in Sources */,
+				7DCA3A7828254000000EB205 /* RegistrationView.swift in Sources */,
+				7DF9E14B282D3427005775C4 /* ClearBackgroundView.swift in Sources */,
+				7DB2FEE428182A4F00E076EA /* MealView.swift in Sources */,
+				7D470DB3280ED2B10040F02F /* LocationManager.swift in Sources */,
+				7DF62DB3281447CE000E41BB /* TabBar.swift in Sources */,
+				7DA7BCD0282028B600822270 /* GoogleMapsView.swift in Sources */,
+				7D569B352854DFAD0063CE8E /* EditAddressView.swift in Sources */,
+				7D67020928339DE1006614A5 /* NoConnectionView.swift in Sources */,
+				7D24CF0328168FF900315CA8 /* DeliveryRestaurantView.swift in Sources */,
+				7D033ECE28214F24002F9D27 /* AddPromotionView.swift in Sources */,
+				7DF9AB4E282FC21F005AF5B0 /* LocationView.swift in Sources */,
+				7D7D0A532828F04B00CCB7C6 /* ReservationHomeView.swift in Sources */,
+				7DA7BCCE2820277D00822270 /* OrderTrackView.swift in Sources */,
+				7DF9AB5628328560005AF5B0 /* AllLocationsView.swift in Sources */,
+				7DBF894228420C1D00A81DD9 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F18280EAD8B0008A6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7B9F21280EAD8B0008A6A0 /* YemakVariOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7B9F22280EAD8B0008A6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7B9F2D280EAD8B0008A6A0 /* YemakVariOSUITestsLaunchTests.swift in Sources */,
+				7D7B9F2B280EAD8B0008A6A0 /* YemakVariOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D7B9F1E280EAD8B0008A6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7B9F0B280EAD860008A6A0 /* YemakVariOS */;
+			targetProxy = 7D7B9F1D280EAD8B0008A6A0 /* PBXContainerItemProxy */;
+		};
+		7D7B9F28280EAD8B0008A6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D7B9F0B280EAD860008A6A0 /* YemakVariOS */;
+			targetProxy = 7D7B9F27280EAD8B0008A6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D7B9F2E280EAD8B0008A6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D7B9F2F280EAD8B0008A6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D7B9F31280EAD8B0008A6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EC6EB7E21DAD1CA46F4308 /* Pods-YemakVariOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemakVariOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VRFNTKB3BU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemakVariOS/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow app to use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D7B9F32280EAD8B0008A6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9814ED4BEF97E36B2B3618F /* Pods-YemakVariOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemakVariOS/Preview Content\"";
+				DEVELOPMENT_TEAM = VRFNTKB3BU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YemakVariOS/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow app to use your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7D7B9F34280EAD8B0008A6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C32F7FE7FC1B9A863E6931B /* Pods-YemakVariOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemakVariOS.app/YemakVariOS";
+			};
+			name = Debug;
+		};
+		7D7B9F35280EAD8B0008A6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A128A5B8D51EDA9C290E3351 /* Pods-YemakVariOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemakVariOS.app/YemakVariOS";
+			};
+			name = Release;
+		};
+		7D7B9F37280EAD8B0008A6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E38B74C7CB853C0CDC787BD /* Pods-YemakVariOS-YemakVariOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemakVariOS;
+			};
+			name = Debug;
+		};
+		7D7B9F38280EAD8B0008A6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E173550986676467EBA9B0 /* Pods-YemakVariOS-YemakVariOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = YemekVar.YemakVariOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemakVariOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7B9F07280EAD860008A6A0 /* Build configuration list for PBXProject "YemakVariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B9F2E280EAD8B0008A6A0 /* Debug */,
+				7D7B9F2F280EAD8B0008A6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7B9F30280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B9F31280EAD8B0008A6A0 /* Debug */,
+				7D7B9F32280EAD8B0008A6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7B9F33280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B9F34280EAD8B0008A6A0 /* Debug */,
+				7D7B9F35280EAD8B0008A6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7B9F36280EAD8B0008A6A0 /* Build configuration list for PBXNativeTarget "YemakVariOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7B9F37280EAD8B0008A6A0 /* Debug */,
+				7D7B9F38280EAD8B0008A6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7B9F04280EAD860008A6A0 /* Project object */;
+}
